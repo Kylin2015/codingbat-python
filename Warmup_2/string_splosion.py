@@ -14,6 +14,15 @@ def string_splosion(str):
   return s
 
 '''
+def string_splosion(str):
+  s = ''
+  for i in range(len(str)+1):
+    s += str[:i]
+  return s
+
+'''
+
+'''
 Solution:
 def string_splosion(str):
   result = ""
